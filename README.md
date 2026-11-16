@@ -12,3 +12,6 @@ Lior Shulman - ליאור שולמן
 
 # Formal Elements 
 https://github.com/Gamedev-HW/The-wrong-Suspect/blob/main/formal-elements-The-Wrong-Suspect.md
+
+# Itch.io link
+https://gamedev-hw.itch.io/the-wrong-suspect
