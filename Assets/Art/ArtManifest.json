@@ -1,0 +1,3074 @@
+{
+ "pixelsPerUnit": 32,
+ "sliceBorders": [
+  {
+   "path": "Assets/Art/Sprites/UI/Panels/Panel_Parchment.png",
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "path": "Assets/Art/Sprites/UI/Panels/Panel_Paper.png",
+   "border": [
+    12,
+    6,
+    6,
+    6
+   ]
+  },
+  {
+   "path": "Assets/Art/Sprites/UI/Panels/Panel_Wood.png",
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "path": "Assets/Art/Sprites/UI/Panels/Panel_Dark.png",
+   "border": [
+    8,
+    8,
+    8,
+    8
+   ]
+  },
+  {
+   "path": "Assets/Art/Sprites/UI/Panels/Bubble_Speech.png",
+   "border": [
+    10,
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "path": "Assets/Art/Sprites/UI/Panels/Card_Alibi.png",
+   "border": [
+    12,
+    12,
+    12,
+    12
+   ]
+  },
+  {
+   "path": "Assets/Art/Sprites/UI/Panels/Button_Normal.png",
+   "border": [
+    6,
+    6,
+    6,
+    6
+   ]
+  },
+  {
+   "path": "Assets/Art/Sprites/UI/Panels/Button_Hover.png",
+   "border": [
+    6,
+    6,
+    6,
+    6
+   ]
+  },
+  {
+   "path": "Assets/Art/Sprites/UI/Panels/Button_Pressed.png",
+   "border": [
+    6,
+    6,
+    6,
+    6
+   ]
+  },
+  {
+   "path": "Assets/Art/Sprites/UI/Panels/ActionBar_Background.png",
+   "border": [
+    4,
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "path": "Assets/Art/Sprites/UI/Panels/ActionBar_Fill.png",
+   "border": [
+    4,
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "path": "Assets/Art/Sprites/UI/Panels/EvidenceCard.png",
+   "border": [
+    6,
+    16,
+    6,
+    6
+   ]
+  },
+  {
+   "path": "Assets/Art/Sprites/UI/Panels/PortraitFrame.png",
+   "border": [
+    8,
+    8,
+    8,
+    8
+   ]
+  }
+ ],
+ "sortingOverrides": [
+  {
+   "name": "Footprints_Mud",
+   "order": -10
+  },
+  {
+   "name": "Doormat",
+   "order": -10
+  }
+ ],
+ "tweens": [
+  {
+   "name": "StampSlam",
+   "loop": false,
+   "scale": [
+    0,
+    2.6,
+    0.12,
+    0.92,
+    0.2,
+    1.06,
+    0.3,
+    1
+   ],
+   "alpha": [
+    0,
+    0,
+    0.08,
+    1
+   ]
+  },
+  {
+   "name": "PopIn",
+   "loop": false,
+   "scale": [
+    0,
+    0,
+    0.14,
+    1.12,
+    0.22,
+    1
+   ],
+   "alpha": [
+    0,
+    0,
+    0.1,
+    1
+   ]
+  },
+  {
+   "name": "TimerWarning",
+   "loop": true,
+   "scale": [
+    0,
+    1,
+    0.12,
+    1.1,
+    0.24,
+    1,
+    0.5,
+    1
+   ],
+   "alpha": []
+  }
+ ],
+ "clips": [
+  {
+   "name": "Player_Idle_Down",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 3,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Idle_Down_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Idle_Down_1.png"
+   ]
+  },
+  {
+   "name": "Player_Walk_Down",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 8,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Down_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Down_1.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Down_2.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Down_3.png"
+   ]
+  },
+  {
+   "name": "Player_Interact_Down",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 10,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Interact_Down_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Interact_Down_1.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Interact_Down_2.png"
+   ]
+  },
+  {
+   "name": "Player_Busy_Down",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 6,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Busy_Down_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Busy_Down_1.png"
+   ]
+  },
+  {
+   "name": "Player_Idle_Up",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 3,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Idle_Up_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Idle_Up_1.png"
+   ]
+  },
+  {
+   "name": "Player_Walk_Up",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 8,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Up_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Up_1.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Up_2.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Up_3.png"
+   ]
+  },
+  {
+   "name": "Player_Interact_Up",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 10,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Interact_Up_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Interact_Up_1.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Interact_Up_2.png"
+   ]
+  },
+  {
+   "name": "Player_Busy_Up",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 6,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Busy_Up_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Busy_Up_1.png"
+   ]
+  },
+  {
+   "name": "Player_Idle_Left",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 3,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Idle_Left_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Idle_Left_1.png"
+   ]
+  },
+  {
+   "name": "Player_Walk_Left",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 8,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Left_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Left_1.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Left_2.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Left_3.png"
+   ]
+  },
+  {
+   "name": "Player_Interact_Left",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 10,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Interact_Left_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Interact_Left_1.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Interact_Left_2.png"
+   ]
+  },
+  {
+   "name": "Player_Busy_Left",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 6,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Busy_Left_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Busy_Left_1.png"
+   ]
+  },
+  {
+   "name": "Player_Idle_Right",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 3,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Idle_Right_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Idle_Right_1.png"
+   ]
+  },
+  {
+   "name": "Player_Walk_Right",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 8,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Right_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Right_1.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Right_2.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Walk_Right_3.png"
+   ]
+  },
+  {
+   "name": "Player_Interact_Right",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 10,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Interact_Right_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Interact_Right_1.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Interact_Right_2.png"
+   ]
+  },
+  {
+   "name": "Player_Busy_Right",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "fps": 6,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Player/Player_Busy_Right_0.png",
+    "Assets/Art/Sprites/Characters/Player/Player_Busy_Right_1.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Idle_Down",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 3,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Idle_Down_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Idle_Down_1.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Walk_Down",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 8,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Down_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Down_1.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Down_2.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Down_3.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Inspect_Down",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 4,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Down_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Down_1.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Down_2.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Down_3.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Accuse_Down",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 8,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Accuse_Down_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Accuse_Down_1.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Accuse_Down_2.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Idle_Up",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 3,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Idle_Up_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Idle_Up_1.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Walk_Up",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 8,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Up_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Up_1.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Up_2.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Up_3.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Inspect_Up",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 4,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Up_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Up_1.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Up_2.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Up_3.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Accuse_Up",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 8,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Accuse_Up_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Accuse_Up_1.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Accuse_Up_2.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Idle_Left",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 3,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Idle_Left_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Idle_Left_1.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Walk_Left",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 8,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Left_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Left_1.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Left_2.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Left_3.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Inspect_Left",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 4,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Left_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Left_1.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Left_2.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Left_3.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Accuse_Left",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 8,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Accuse_Left_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Accuse_Left_1.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Accuse_Left_2.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Idle_Right",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 3,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Idle_Right_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Idle_Right_1.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Walk_Right",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 8,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Right_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Right_1.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Right_2.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Walk_Right_3.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Inspect_Right",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 4,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Right_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Right_1.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Right_2.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Inspect_Right_3.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Accuse_Right",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 8,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Accuse_Right_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Accuse_Right_1.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Accuse_Right_2.png"
+   ]
+  },
+  {
+   "name": "Sherlock_Think_Down",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "fps": 4,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Think_Down_0.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Think_Down_1.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Think_Down_2.png",
+    "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Think_Down_3.png"
+   ]
+  },
+  {
+   "name": "Door_Closed",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 12,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Openable/Door/Door_0.png"
+   ]
+  },
+  {
+   "name": "Door_Open",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 12,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Openable/Door/Door_0.png",
+    "Assets/Art/Sprites/Props/Openable/Door/Door_1.png",
+    "Assets/Art/Sprites/Props/Openable/Door/Door_2.png",
+    "Assets/Art/Sprites/Props/Openable/Door/Door_3.png"
+   ]
+  },
+  {
+   "name": "Door_Close",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 12,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Openable/Door/Door_3.png",
+    "Assets/Art/Sprites/Props/Openable/Door/Door_2.png",
+    "Assets/Art/Sprites/Props/Openable/Door/Door_1.png",
+    "Assets/Art/Sprites/Props/Openable/Door/Door_0.png"
+   ]
+  },
+  {
+   "name": "Window_Closed",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 10,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Openable/Window/Window_0.png"
+   ]
+  },
+  {
+   "name": "Window_Open",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 10,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Openable/Window/Window_0.png",
+    "Assets/Art/Sprites/Props/Openable/Window/Window_1.png",
+    "Assets/Art/Sprites/Props/Openable/Window/Window_2.png",
+    "Assets/Art/Sprites/Props/Openable/Window/Window_3.png"
+   ]
+  },
+  {
+   "name": "Window_Close",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 10,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Openable/Window/Window_3.png",
+    "Assets/Art/Sprites/Props/Openable/Window/Window_2.png",
+    "Assets/Art/Sprites/Props/Openable/Window/Window_1.png",
+    "Assets/Art/Sprites/Props/Openable/Window/Window_0.png"
+   ]
+  },
+  {
+   "name": "Wardrobe_Closed",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 10,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Openable/Wardrobe/Wardrobe_0.png"
+   ]
+  },
+  {
+   "name": "Wardrobe_Open",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 10,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Openable/Wardrobe/Wardrobe_0.png",
+    "Assets/Art/Sprites/Props/Openable/Wardrobe/Wardrobe_1.png",
+    "Assets/Art/Sprites/Props/Openable/Wardrobe/Wardrobe_2.png"
+   ]
+  },
+  {
+   "name": "Wardrobe_Close",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 10,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Openable/Wardrobe/Wardrobe_2.png",
+    "Assets/Art/Sprites/Props/Openable/Wardrobe/Wardrobe_1.png",
+    "Assets/Art/Sprites/Props/Openable/Wardrobe/Wardrobe_0.png"
+   ]
+  },
+  {
+   "name": "DrawerChest_Closed",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 10,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Openable/DrawerChest/DrawerChest_0.png"
+   ]
+  },
+  {
+   "name": "DrawerChest_Open",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 10,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Openable/DrawerChest/DrawerChest_0.png",
+    "Assets/Art/Sprites/Props/Openable/DrawerChest/DrawerChest_1.png",
+    "Assets/Art/Sprites/Props/Openable/DrawerChest/DrawerChest_2.png"
+   ]
+  },
+  {
+   "name": "DrawerChest_Close",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 10,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Openable/DrawerChest/DrawerChest_2.png",
+    "Assets/Art/Sprites/Props/Openable/DrawerChest/DrawerChest_1.png",
+    "Assets/Art/Sprites/Props/Openable/DrawerChest/DrawerChest_0.png"
+   ]
+  },
+  {
+   "name": "LockedCabinet_Closed",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 8,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Openable/LockedCabinet/LockedCabinet_0.png"
+   ]
+  },
+  {
+   "name": "LockedCabinet_Open",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 8,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Openable/LockedCabinet/LockedCabinet_0.png",
+    "Assets/Art/Sprites/Props/Openable/LockedCabinet/LockedCabinet_1.png",
+    "Assets/Art/Sprites/Props/Openable/LockedCabinet/LockedCabinet_0.png",
+    "Assets/Art/Sprites/Props/Openable/LockedCabinet/LockedCabinet_1.png",
+    "Assets/Art/Sprites/Props/Openable/LockedCabinet/LockedCabinet_0.png",
+    "Assets/Art/Sprites/Props/Openable/LockedCabinet/LockedCabinet_2.png",
+    "Assets/Art/Sprites/Props/Openable/LockedCabinet/LockedCabinet_2.png",
+    "Assets/Art/Sprites/Props/Openable/LockedCabinet/LockedCabinet_3.png"
+   ]
+  },
+  {
+   "name": "LockedCabinet_Close",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 8,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Openable/LockedCabinet/LockedCabinet_3.png",
+    "Assets/Art/Sprites/Props/Openable/LockedCabinet/LockedCabinet_2.png"
+   ]
+  },
+  {
+   "name": "Fireplace_Burn",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 8,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Ambient/Fireplace/Fireplace_0.png",
+    "Assets/Art/Sprites/Props/Ambient/Fireplace/Fireplace_1.png",
+    "Assets/Art/Sprites/Props/Ambient/Fireplace/Fireplace_2.png",
+    "Assets/Art/Sprites/Props/Ambient/Fireplace/Fireplace_3.png"
+   ]
+  },
+  {
+   "name": "OilLamp_Flicker",
+   "folder": "Assets/Art/Animations/Props",
+   "fps": 6,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Props/Ambient/OilLamp/OilLamp_0.png",
+    "Assets/Art/Sprites/Props/Ambient/OilLamp/OilLamp_1.png",
+    "Assets/Art/Sprites/Props/Ambient/OilLamp/OilLamp_2.png",
+    "Assets/Art/Sprites/Props/Ambient/OilLamp/OilLamp_0.png",
+    "Assets/Art/Sprites/Props/Ambient/OilLamp/OilLamp_2.png"
+   ]
+  },
+  {
+   "name": "Sparkle",
+   "folder": "Assets/Art/Animations/Effects",
+   "fps": 10,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Effects/Sparkle/Sparkle_0.png",
+    "Assets/Art/Sprites/Effects/Sparkle/Sparkle_1.png",
+    "Assets/Art/Sprites/Effects/Sparkle/Sparkle_2.png",
+    "Assets/Art/Sprites/Effects/Sparkle/Sparkle_3.png"
+   ]
+  },
+  {
+   "name": "DustPuff",
+   "folder": "Assets/Art/Animations/Effects",
+   "fps": 12,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Effects/DustPuff/DustPuff_0.png",
+    "Assets/Art/Sprites/Effects/DustPuff/DustPuff_1.png",
+    "Assets/Art/Sprites/Effects/DustPuff/DustPuff_2.png",
+    "Assets/Art/Sprites/Effects/DustPuff/DustPuff_3.png",
+    "Assets/Art/Sprites/Effects/DustPuff/DustPuff_4.png"
+   ]
+  },
+  {
+   "name": "PipeSmoke",
+   "folder": "Assets/Art/Animations/Effects",
+   "fps": 6,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Effects/PipeSmoke/PipeSmoke_0.png",
+    "Assets/Art/Sprites/Effects/PipeSmoke/PipeSmoke_1.png",
+    "Assets/Art/Sprites/Effects/PipeSmoke/PipeSmoke_2.png",
+    "Assets/Art/Sprites/Effects/PipeSmoke/PipeSmoke_3.png"
+   ]
+  },
+  {
+   "name": "Exclaim",
+   "folder": "Assets/Art/Animations/Effects",
+   "fps": 12,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Effects/Exclaim/Exclaim_0.png",
+    "Assets/Art/Sprites/Effects/Exclaim/Exclaim_1.png",
+    "Assets/Art/Sprites/Effects/Exclaim/Exclaim_2.png",
+    "Assets/Art/Sprites/Effects/Exclaim/Exclaim_3.png"
+   ]
+  },
+  {
+   "name": "Exclaim_UI",
+   "folder": "Assets/Art/Animations/UI",
+   "fps": 12,
+   "loop": false,
+   "target": "Image",
+   "frames": [
+    "Assets/Art/Sprites/Effects/Exclaim/Exclaim_0.png",
+    "Assets/Art/Sprites/Effects/Exclaim/Exclaim_1.png",
+    "Assets/Art/Sprites/Effects/Exclaim/Exclaim_2.png",
+    "Assets/Art/Sprites/Effects/Exclaim/Exclaim_3.png"
+   ]
+  },
+  {
+   "name": "Question",
+   "folder": "Assets/Art/Animations/Effects",
+   "fps": 12,
+   "loop": false,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Effects/Question/Question_0.png",
+    "Assets/Art/Sprites/Effects/Question/Question_1.png",
+    "Assets/Art/Sprites/Effects/Question/Question_2.png",
+    "Assets/Art/Sprites/Effects/Question/Question_3.png"
+   ]
+  },
+  {
+   "name": "Question_UI",
+   "folder": "Assets/Art/Animations/UI",
+   "fps": 12,
+   "loop": false,
+   "target": "Image",
+   "frames": [
+    "Assets/Art/Sprites/Effects/Question/Question_0.png",
+    "Assets/Art/Sprites/Effects/Question/Question_1.png",
+    "Assets/Art/Sprites/Effects/Question/Question_2.png",
+    "Assets/Art/Sprites/Effects/Question/Question_3.png"
+   ]
+  },
+  {
+   "name": "ThoughtDots",
+   "folder": "Assets/Art/Animations/Effects",
+   "fps": 3,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Effects/ThoughtDots/ThoughtDots_0.png",
+    "Assets/Art/Sprites/Effects/ThoughtDots/ThoughtDots_1.png",
+    "Assets/Art/Sprites/Effects/ThoughtDots/ThoughtDots_2.png"
+   ]
+  },
+  {
+   "name": "ThoughtDots_UI",
+   "folder": "Assets/Art/Animations/UI",
+   "fps": 3,
+   "loop": true,
+   "target": "Image",
+   "frames": [
+    "Assets/Art/Sprites/Effects/ThoughtDots/ThoughtDots_0.png",
+    "Assets/Art/Sprites/Effects/ThoughtDots/ThoughtDots_1.png",
+    "Assets/Art/Sprites/Effects/ThoughtDots/ThoughtDots_2.png"
+   ]
+  },
+  {
+   "name": "GlowRing",
+   "folder": "Assets/Art/Animations/Effects",
+   "fps": 8,
+   "loop": true,
+   "target": "SpriteRenderer",
+   "frames": [
+    "Assets/Art/Sprites/Effects/GlowRing/GlowRing_0.png",
+    "Assets/Art/Sprites/Effects/GlowRing/GlowRing_1.png",
+    "Assets/Art/Sprites/Effects/GlowRing/GlowRing_2.png",
+    "Assets/Art/Sprites/Effects/GlowRing/GlowRing_3.png"
+   ]
+  }
+ ],
+ "controllers": [
+  {
+   "name": "Player",
+   "folder": "Assets/Art/Animations/Characters/Player",
+   "kind": "character",
+   "clip": "Player",
+   "parameter": "",
+   "actions": [
+    {
+     "animation": "Busy",
+     "type": "bool"
+    },
+    {
+     "animation": "Interact",
+     "type": "trigger"
+    }
+   ]
+  },
+  {
+   "name": "Sherlock",
+   "folder": "Assets/Art/Animations/Characters/Sherlock",
+   "kind": "character",
+   "clip": "Sherlock",
+   "parameter": "",
+   "actions": [
+    {
+     "animation": "Inspect",
+     "type": "bool"
+    },
+    {
+     "animation": "Think",
+     "type": "bool"
+    },
+    {
+     "animation": "Accuse",
+     "type": "bool"
+    }
+   ]
+  },
+  {
+   "name": "Door",
+   "folder": "Assets/Art/Animations/Props",
+   "kind": "openable",
+   "clip": "Door",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "Window",
+   "folder": "Assets/Art/Animations/Props",
+   "kind": "openable",
+   "clip": "Window",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "Wardrobe",
+   "folder": "Assets/Art/Animations/Props",
+   "kind": "openable",
+   "clip": "Wardrobe",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "DrawerChest",
+   "folder": "Assets/Art/Animations/Props",
+   "kind": "openable",
+   "clip": "DrawerChest",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "LockedCabinet",
+   "folder": "Assets/Art/Animations/Props",
+   "kind": "openable",
+   "clip": "LockedCabinet",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "Fireplace",
+   "folder": "Assets/Art/Animations/Props",
+   "kind": "single",
+   "clip": "Fireplace_Burn",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "OilLamp",
+   "folder": "Assets/Art/Animations/Props",
+   "kind": "single",
+   "clip": "OilLamp_Flicker",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "Sparkle",
+   "folder": "Assets/Art/Animations/Effects",
+   "kind": "single",
+   "clip": "Sparkle",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "DustPuff",
+   "folder": "Assets/Art/Animations/Effects",
+   "kind": "single",
+   "clip": "DustPuff",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "PipeSmoke",
+   "folder": "Assets/Art/Animations/Effects",
+   "kind": "single",
+   "clip": "PipeSmoke",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "Exclaim",
+   "folder": "Assets/Art/Animations/Effects",
+   "kind": "single",
+   "clip": "Exclaim",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "Exclaim_UI",
+   "folder": "Assets/Art/Animations/UI",
+   "kind": "single",
+   "clip": "Exclaim_UI",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "Question",
+   "folder": "Assets/Art/Animations/Effects",
+   "kind": "single",
+   "clip": "Question",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "Question_UI",
+   "folder": "Assets/Art/Animations/UI",
+   "kind": "single",
+   "clip": "Question_UI",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "ThoughtDots",
+   "folder": "Assets/Art/Animations/Effects",
+   "kind": "single",
+   "clip": "ThoughtDots",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "ThoughtDots_UI",
+   "folder": "Assets/Art/Animations/UI",
+   "kind": "single",
+   "clip": "ThoughtDots_UI",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "GlowRing",
+   "folder": "Assets/Art/Animations/Effects",
+   "kind": "single",
+   "clip": "GlowRing",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "StampSlam",
+   "folder": "Assets/Art/Animations/UI",
+   "kind": "single",
+   "clip": "StampSlam",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "PopIn",
+   "folder": "Assets/Art/Animations/UI",
+   "kind": "single",
+   "clip": "PopIn",
+   "parameter": "",
+   "actions": []
+  },
+  {
+   "name": "TimerWarning",
+   "folder": "Assets/Art/Animations/UI",
+   "kind": "toggle",
+   "clip": "TimerWarning",
+   "parameter": "Warning",
+   "actions": []
+  }
+ ],
+ "animatedPrefabs": [
+  {
+   "name": "Player",
+   "folder": "Assets/Prefabs/Characters",
+   "kind": "player",
+   "sprite": "Assets/Art/Sprites/Characters/Player/Player_Idle_Down_0.png",
+   "highlight": "",
+   "controller": "Player",
+   "sortingOrder": 0,
+   "lifetime": 0.0
+  },
+  {
+   "name": "Sherlock",
+   "folder": "Assets/Prefabs/Characters",
+   "kind": "detective",
+   "sprite": "Assets/Art/Sprites/Characters/Sherlock/Sherlock_Idle_Down_0.png",
+   "highlight": "",
+   "controller": "Sherlock",
+   "sortingOrder": 0,
+   "lifetime": 0.0
+  },
+  {
+   "name": "Door",
+   "folder": "Assets/Prefabs/Props",
+   "kind": "openable",
+   "sprite": "Assets/Art/Sprites/Props/Openable/Door/Door_0.png",
+   "highlight": "Assets/Art/Sprites/Props/Openable/Door/Door_Highlight.png",
+   "controller": "Door",
+   "sortingOrder": 0,
+   "lifetime": 0.0
+  },
+  {
+   "name": "Window",
+   "folder": "Assets/Prefabs/Props",
+   "kind": "openable",
+   "sprite": "Assets/Art/Sprites/Props/Openable/Window/Window_0.png",
+   "highlight": "Assets/Art/Sprites/Props/Openable/Window/Window_Highlight.png",
+   "controller": "Window",
+   "sortingOrder": 0,
+   "lifetime": 0.0
+  },
+  {
+   "name": "Wardrobe",
+   "folder": "Assets/Prefabs/Props",
+   "kind": "openable",
+   "sprite": "Assets/Art/Sprites/Props/Openable/Wardrobe/Wardrobe_0.png",
+   "highlight": "Assets/Art/Sprites/Props/Openable/Wardrobe/Wardrobe_Highlight.png",
+   "controller": "Wardrobe",
+   "sortingOrder": 0,
+   "lifetime": 0.0
+  },
+  {
+   "name": "DrawerChest",
+   "folder": "Assets/Prefabs/Props",
+   "kind": "openable",
+   "sprite": "Assets/Art/Sprites/Props/Openable/DrawerChest/DrawerChest_0.png",
+   "highlight": "Assets/Art/Sprites/Props/Openable/DrawerChest/DrawerChest_Highlight.png",
+   "controller": "DrawerChest",
+   "sortingOrder": 0,
+   "lifetime": 0.0
+  },
+  {
+   "name": "LockedCabinet",
+   "folder": "Assets/Prefabs/Props",
+   "kind": "openable",
+   "sprite": "Assets/Art/Sprites/Props/Openable/LockedCabinet/LockedCabinet_0.png",
+   "highlight": "Assets/Art/Sprites/Props/Openable/LockedCabinet/LockedCabinet_Highlight.png",
+   "controller": "LockedCabinet",
+   "sortingOrder": 0,
+   "lifetime": 0.0
+  },
+  {
+   "name": "Fireplace",
+   "folder": "Assets/Prefabs/Props",
+   "kind": "ambient",
+   "sprite": "Assets/Art/Sprites/Props/Ambient/Fireplace/Fireplace_0.png",
+   "highlight": "",
+   "controller": "Fireplace",
+   "sortingOrder": 0,
+   "lifetime": 0.0
+  },
+  {
+   "name": "OilLamp",
+   "folder": "Assets/Prefabs/Props",
+   "kind": "ambient",
+   "sprite": "Assets/Art/Sprites/Props/Ambient/OilLamp/OilLamp_0.png",
+   "highlight": "",
+   "controller": "OilLamp",
+   "sortingOrder": 1,
+   "lifetime": 0.0
+  },
+  {
+   "name": "Sparkle",
+   "folder": "Assets/Prefabs/Effects",
+   "kind": "effect",
+   "sprite": "Assets/Art/Sprites/Effects/Sparkle/Sparkle_0.png",
+   "highlight": "",
+   "controller": "Sparkle",
+   "sortingOrder": 10,
+   "lifetime": 0.45
+  },
+  {
+   "name": "DustPuff",
+   "folder": "Assets/Prefabs/Effects",
+   "kind": "effect_oneshot",
+   "sprite": "Assets/Art/Sprites/Effects/DustPuff/DustPuff_0.png",
+   "highlight": "",
+   "controller": "DustPuff",
+   "sortingOrder": 10,
+   "lifetime": 0.467
+  },
+  {
+   "name": "PipeSmoke",
+   "folder": "Assets/Prefabs/Effects",
+   "kind": "effect",
+   "sprite": "Assets/Art/Sprites/Effects/PipeSmoke/PipeSmoke_0.png",
+   "highlight": "",
+   "controller": "PipeSmoke",
+   "sortingOrder": 10,
+   "lifetime": 0.717
+  },
+  {
+   "name": "Exclaim",
+   "folder": "Assets/Prefabs/Effects",
+   "kind": "effect_oneshot",
+   "sprite": "Assets/Art/Sprites/Effects/Exclaim/Exclaim_0.png",
+   "highlight": "",
+   "controller": "Exclaim",
+   "sortingOrder": 10,
+   "lifetime": 0.383
+  },
+  {
+   "name": "Question",
+   "folder": "Assets/Prefabs/Effects",
+   "kind": "effect_oneshot",
+   "sprite": "Assets/Art/Sprites/Effects/Question/Question_0.png",
+   "highlight": "",
+   "controller": "Question",
+   "sortingOrder": 10,
+   "lifetime": 0.383
+  },
+  {
+   "name": "ThoughtDots",
+   "folder": "Assets/Prefabs/Effects",
+   "kind": "effect",
+   "sprite": "Assets/Art/Sprites/Effects/ThoughtDots/ThoughtDots_0.png",
+   "highlight": "",
+   "controller": "ThoughtDots",
+   "sortingOrder": 10,
+   "lifetime": 1.05
+  },
+  {
+   "name": "GlowRing",
+   "folder": "Assets/Prefabs/Effects",
+   "kind": "effect",
+   "sprite": "Assets/Art/Sprites/Effects/GlowRing/GlowRing_0.png",
+   "highlight": "",
+   "controller": "GlowRing",
+   "sortingOrder": 10,
+   "lifetime": 0.55
+  }
+ ],
+ "folderPrefabs": [
+  {
+   "spriteFolder": "Assets/Art/Sprites/Evidence",
+   "prefabFolder": "Assets/Prefabs/Evidence",
+   "kind": "interactable",
+   "sortingOrder": 1
+  },
+  {
+   "spriteFolder": "Assets/Art/Sprites/Props/Interactive",
+   "prefabFolder": "Assets/Prefabs/Props",
+   "kind": "interactable",
+   "sortingOrder": 0
+  },
+  {
+   "spriteFolder": "Assets/Art/Sprites/Props/Decor",
+   "prefabFolder": "Assets/Prefabs/Props/Decor",
+   "kind": "decor",
+   "sortingOrder": 0
+  },
+  {
+   "spriteFolder": "Assets/Art/Sprites/Environment/Rooms",
+   "prefabFolder": "Assets/Prefabs/Rooms",
+   "kind": "room",
+   "sortingOrder": -100
+  }
+ ],
+ "eventAssets": [
+  {
+   "name": "PreparationEnded",
+   "type": "GameEvent"
+  },
+  {
+   "name": "MenuClosed",
+   "type": "GameEvent"
+  },
+  {
+   "name": "VerdictWrongSuspect",
+   "type": "GameEvent"
+  },
+  {
+   "name": "VerdictPartial",
+   "type": "GameEvent"
+  },
+  {
+   "name": "VerdictExposed",
+   "type": "GameEvent"
+  },
+  {
+   "name": "PreparationTimerChanged",
+   "type": "TimerEvent"
+  },
+  {
+   "name": "PlayerWalkingChanged",
+   "type": "BoolEvent"
+  },
+  {
+   "name": "TimeSpent",
+   "type": "FloatEvent"
+  },
+  {
+   "name": "InteractableSelected",
+   "type": "InteractableEvent"
+  },
+  {
+   "name": "InteractableInspected",
+   "type": "InteractableEvent"
+  },
+  {
+   "name": "CarriedChanged",
+   "type": "CarriableEvent"
+  },
+  {
+   "name": "ActionChosen",
+   "type": "ActionEvent"
+  },
+  {
+   "name": "ActionMenuRequested",
+   "type": "ActionMenuEvent"
+  },
+  {
+   "name": "FloorClicked",
+   "type": "Vector2Event"
+  },
+  {
+   "name": "AlibiRequested",
+   "type": "AlibiRequestEvent"
+  },
+  {
+   "name": "AlibiChosen",
+   "type": "IntEvent"
+  },
+  {
+   "name": "DialogueLine",
+   "type": "DialogueEvent"
+  },
+  {
+   "name": "VerdictReady",
+   "type": "VerdictEvent"
+  },
+  {
+   "name": "RestartRequested",
+   "type": "GameEvent"
+  },
+  {
+   "name": "NextLevelRequested",
+   "type": "GameEvent"
+  },
+  {
+   "name": "ObstaclesChanged",
+   "type": "GameEvent"
+  }
+ ],
+ "actions": [
+  {
+   "name": "Inspect",
+   "type": "Inspect",
+   "label": "Inspect",
+   "icon": "Assets/Art/Sprites/UI/Icons/Icon_Inspect.png",
+   "timeCost": 5,
+   "animationSeconds": 0.6,
+   "busy": false
+  },
+  {
+   "name": "PickUp",
+   "type": "PickUp",
+   "label": "Pick up",
+   "icon": "Assets/Art/Sprites/UI/Icons/Icon_PickUp.png",
+   "timeCost": 10,
+   "animationSeconds": 0.5,
+   "busy": false
+  },
+  {
+   "name": "Place",
+   "type": "Place",
+   "label": "Place here",
+   "icon": "Assets/Art/Sprites/UI/Icons/Icon_Place.png",
+   "timeCost": 10,
+   "animationSeconds": 0.5,
+   "busy": false
+  },
+  {
+   "name": "Hide",
+   "type": "Hide",
+   "label": "Hide inside",
+   "icon": "Assets/Art/Sprites/UI/Icons/Icon_Hide.png",
+   "timeCost": 20,
+   "animationSeconds": 1.2,
+   "busy": true
+  },
+  {
+   "name": "OpenClose",
+   "type": "OpenClose",
+   "label": "Open",
+   "icon": "Assets/Art/Sprites/UI/Icons/Icon_Access.png",
+   "timeCost": 10,
+   "animationSeconds": 0.5,
+   "busy": false
+  },
+  {
+   "name": "Unlock",
+   "type": "Unlock",
+   "label": "Force the lock",
+   "icon": "Assets/Art/Sprites/UI/Icons/Icon_ComplexAction.png",
+   "timeCost": 30,
+   "animationSeconds": 1.6,
+   "busy": true
+  }
+ ],
+ "interactions": [
+  {
+   "name": "Letter_Signed",
+   "displayName": "Signed letter",
+   "description": "Your letter, with your signature. It proves you were in this room tonight.",
+   "actions": [
+    "Inspect",
+    "PickUp"
+   ],
+   "carriable": true,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.7
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "Glove_Butler",
+   "displayName": "Butler's glove",
+   "description": "A white cotton glove embroidered with the butler's initials.",
+   "actions": [
+    "Inspect",
+    "PickUp"
+   ],
+   "carriable": true,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.7
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "Note_WithName",
+   "displayName": "Note",
+   "description": "A note with your name on it. It ties you to the jewellery box.",
+   "actions": [
+    "Inspect",
+    "PickUp"
+   ],
+   "carriable": true,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.7
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "Scarf_Arthur",
+   "displayName": "Arthur's scarf",
+   "description": "Arthur's green and gold striped scarf.",
+   "actions": [
+    "Inspect",
+    "PickUp"
+   ],
+   "carriable": true,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.7
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "Contract_Torn",
+   "displayName": "Torn contract",
+   "description": "A torn contract with your signature: a motive Sherlock would love.",
+   "actions": [
+    "Inspect",
+    "PickUp"
+   ],
+   "carriable": true,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.7
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "Key_Secretary",
+   "displayName": "Secretary's key",
+   "description": "The secretary forgot his key on the shelf.",
+   "actions": [
+    "Inspect",
+    "PickUp"
+   ],
+   "carriable": true,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.7
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "Document_Fingerprint",
+   "displayName": "Secret document",
+   "description": "The stolen document. Your fingerprint is on it.",
+   "actions": [
+    "Inspect",
+    "PickUp"
+   ],
+   "carriable": true,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.7
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "Briefcase_Arthur",
+   "displayName": "Arthur's briefcase",
+   "description": "A leather briefcase. The brass plate carries Arthur's initials.",
+   "actions": [
+    "Inspect",
+    "PickUp"
+   ],
+   "carriable": true,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.7
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "Scarf_Butler",
+   "displayName": "Butler's scarf",
+   "description": "The butler's grey scarf.",
+   "actions": [
+    "Inspect",
+    "PickUp"
+   ],
+   "carriable": true,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.7
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "Footprints_Mud",
+   "displayName": "Muddy footprints",
+   "description": "Fresh mud. The toes point into the room. They cannot be moved.",
+   "actions": [
+    "Inspect"
+   ],
+   "carriable": false,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.7
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "Glass_Broken",
+   "displayName": "Broken glass",
+   "description": "A shattered wine glass. Something happened here at nine.",
+   "actions": [
+    "Inspect"
+   ],
+   "carriable": false,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.7
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "Testimony_Note",
+   "displayName": "Statement",
+   "description": "A written statement. It is fixed: you cannot change it.",
+   "actions": [
+    "Inspect"
+   ],
+   "carriable": false,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.7
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "JewelryBox_Empty",
+   "displayName": "Jewellery box",
+   "description": "Open and empty. The jewel was taken from here.",
+   "actions": [
+    "Inspect",
+    "Place"
+   ],
+   "carriable": false,
+   "container": false,
+   "locked": false,
+   "acceptsItems": true,
+   "standOffset": [
+    0,
+    -0.7
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "Desk",
+   "displayName": "Desk",
+   "description": "A heavy writing desk.",
+   "actions": [
+    "Inspect",
+    "Place"
+   ],
+   "carriable": false,
+   "container": false,
+   "locked": false,
+   "acceptsItems": true,
+   "standOffset": [
+    0,
+    -0.35
+   ],
+   "dropOffset": [
+    -0.75,
+    -0.2
+   ]
+  },
+  {
+   "name": "Chair",
+   "displayName": "Chair",
+   "description": "A velvet chair.",
+   "actions": [
+    "Inspect",
+    "Place"
+   ],
+   "carriable": false,
+   "container": false,
+   "locked": false,
+   "acceptsItems": true,
+   "standOffset": [
+    0,
+    -0.35
+   ],
+   "dropOffset": [
+    0.0,
+    0.45
+   ]
+  },
+  {
+   "name": "ConsoleTable",
+   "displayName": "Hall shelf",
+   "description": "A narrow table in the hallway.",
+   "actions": [
+    "Inspect",
+    "Place"
+   ],
+   "carriable": false,
+   "container": false,
+   "locked": false,
+   "acceptsItems": true,
+   "standOffset": [
+    0,
+    -0.35
+   ],
+   "dropOffset": [
+    0.35,
+    0.55
+   ]
+  },
+  {
+   "name": "WallClock_Stopped2100",
+   "displayName": "Wall clock",
+   "description": "It stopped at 9:00 and its glass is cracked. Fixed evidence.",
+   "actions": [
+    "Inspect"
+   ],
+   "carriable": false,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.9
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "GrandfatherClock_Stopped2110",
+   "displayName": "Grandfather clock",
+   "description": "It stopped at 9:10. Fixed evidence.",
+   "actions": [
+    "Inspect"
+   ],
+   "carriable": false,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.35
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "Wardrobe",
+   "displayName": "Wardrobe",
+   "description": "A tall wardrobe with room at the bottom.",
+   "actions": [
+    "Inspect",
+    "Hide",
+    "OpenClose"
+   ],
+   "carriable": false,
+   "container": true,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.35
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "DrawerChest",
+   "displayName": "Chest of drawers",
+   "description": "The top drawer is almost empty.",
+   "actions": [
+    "Inspect",
+    "Hide",
+    "OpenClose"
+   ],
+   "carriable": false,
+   "container": true,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.35
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "LockedCabinet",
+   "displayName": "Locked cabinet",
+   "description": "A padlocked drawer. Forcing it takes time.",
+   "actions": [
+    "Inspect",
+    "Unlock",
+    "Hide",
+    "OpenClose"
+   ],
+   "carriable": false,
+   "container": true,
+   "locked": true,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.35
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "Window",
+   "displayName": "Window",
+   "description": "A sash window onto the dark garden.",
+   "actions": [
+    "Inspect",
+    "OpenClose"
+   ],
+   "carriable": false,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.9
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  },
+  {
+   "name": "Door",
+   "displayName": "Door",
+   "description": "A panelled door.",
+   "actions": [
+    "Inspect",
+    "OpenClose"
+   ],
+   "carriable": false,
+   "container": false,
+   "locked": false,
+   "acceptsItems": false,
+   "standOffset": [
+    0,
+    -0.35
+   ],
+   "dropOffset": [
+    0.6,
+    0.0
+   ]
+  }
+ ],
+ "roomWalls": [
+  {
+   "room": "Room_Level1_Study",
+   "rects": [
+    0.0,
+    6.75,
+    12.0,
+    2.25,
+    0.0,
+    0.0,
+    0.25,
+    6.75,
+    11.75,
+    0.0,
+    0.25,
+    6.75,
+    0.25,
+    0.0,
+    9.0,
+    0.25,
+    11.0,
+    0.0,
+    0.75,
+    0.25
+   ]
+  },
+  {
+   "room": "Room_Level2_LivingRoom",
+   "rects": [
+    0.0,
+    6.75,
+    12.0,
+    2.25,
+    0.0,
+    0.0,
+    0.25,
+    6.75,
+    11.75,
+    0.0,
+    0.25,
+    6.75,
+    0.25,
+    0.0,
+    0.5,
+    0.25,
+    2.25,
+    0.0,
+    9.5,
+    0.25
+   ]
+  },
+  {
+   "room": "Room_Level3_LibraryHallway",
+   "rects": [
+    0.0,
+    8.75,
+    12.0,
+    2.25,
+    0.0,
+    0.0,
+    0.25,
+    8.75,
+    11.75,
+    0.0,
+    0.25,
+    8.75,
+    0.25,
+    2.5,
+    5.25,
+    2.25,
+    6.5,
+    2.5,
+    5.25,
+    2.25,
+    0.25,
+    0.0,
+    11.5,
+    0.25
+   ]
+  },
+  {
+   "room": "Room_Level4_StudyLivingHallway",
+   "rects": [
+    0.0,
+    8.75,
+    20.0,
+    2.25,
+    0.0,
+    0.0,
+    0.25,
+    8.75,
+    9.75,
+    7.25,
+    0.25,
+    1.5,
+    19.75,
+    0.0,
+    0.25,
+    8.75,
+    9.75,
+    2.5,
+    0.25,
+    3.25,
+    0.25,
+    2.5,
+    5.5,
+    2.25,
+    6.75,
+    2.5,
+    3.0,
+    2.25,
+    10.0,
+    2.5,
+    4.25,
+    2.25,
+    15.25,
+    2.5,
+    4.5,
+    2.25,
+    0.25,
+    0.0,
+    18.0,
+    0.25
+   ]
+  }
+ ],
+ "obstacles": [
+  {
+   "name": "Desk",
+   "depth": 0.45
+  },
+  {
+   "name": "Chair",
+   "depth": 0.3
+  },
+  {
+   "name": "Wardrobe",
+   "depth": 0.25
+  },
+  {
+   "name": "DrawerChest",
+   "depth": 0.35
+  },
+  {
+   "name": "LockedCabinet",
+   "depth": 0.35
+  },
+  {
+   "name": "Bookshelf",
+   "depth": 0.2
+  },
+  {
+   "name": "Armchair",
+   "depth": 0.45
+  },
+  {
+   "name": "Sofa",
+   "depth": 0.45
+  },
+  {
+   "name": "RoundTable",
+   "depth": 0.4
+  },
+  {
+   "name": "SideTable",
+   "depth": 0.4
+  },
+  {
+   "name": "ConsoleTable",
+   "depth": 0.4
+  },
+  {
+   "name": "CoatRack",
+   "depth": 0.15
+  },
+  {
+   "name": "Plant",
+   "depth": 0.3
+  },
+  {
+   "name": "GrandfatherClock_Stopped2110",
+   "depth": 0.15
+  },
+  {
+   "name": "Fireplace",
+   "depth": 0.25
+  }
+ ],
+ "doorPassages": [
+  {
+   "name": "Door",
+   "size": [
+    1.0,
+    2.25
+   ]
+  }
+ ],
+ "suspects": [
+  {
+   "name": "Culprit",
+   "displayName": "You",
+   "portrait": "Assets/Art/Sprites/Portraits/Portrait_Player_Nervous.png",
+   "culprit": true
+  },
+  {
+   "name": "Butler",
+   "displayName": "The butler",
+   "portrait": "Assets/Art/Sprites/Portraits/Portrait_Butler_Shocked.png",
+   "culprit": false
+  },
+  {
+   "name": "Arthur",
+   "displayName": "Arthur",
+   "portrait": "Assets/Art/Sprites/Portraits/Portrait_Arthur_Shocked.png",
+   "culprit": false
+  },
+  {
+   "name": "Secretary",
+   "displayName": "The secretary",
+   "portrait": "Assets/Art/Sprites/Portraits/Portrait_Secretary_Shocked.png",
+   "culprit": false
+  }
+ ],
+ "cases": [
+  {
+   "level": 1,
+   "suspects": [
+    "Culprit",
+    "Butler"
+   ],
+   "entrance": [
+    10.125,
+    0.375
+   ],
+   "alibiOptions": [],
+   "clues": [
+    {
+     "line": "Your signed letter, lying in plain sight. You were in this room tonight.",
+     "condition": "ItemVisible",
+     "suspect": "Culprit",
+     "weight": 3,
+     "item": "Letter_Signed",
+     "place": "",
+     "radius": 1.5,
+     "openable": "",
+     "alibiIndex": -1,
+     "contradiction": false,
+     "lookAt": "Letter_Signed"
+    },
+    {
+     "line": "The butler's glove beside the desk. He dropped it while searching.",
+     "condition": "ItemNear",
+     "suspect": "Butler",
+     "weight": 2,
+     "item": "Glove_Butler",
+     "place": "Desk",
+     "radius": 1.6,
+     "openable": "",
+     "alibiIndex": -1,
+     "contradiction": false,
+     "lookAt": "Glove_Butler"
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "suspects": [
+    "Culprit",
+    "Arthur"
+   ],
+   "entrance": [
+    1.5,
+    0.375
+   ],
+   "alibiOptions": [],
+   "clues": [
+    {
+     "line": "A note with your name on it, right here. How careless.",
+     "condition": "ItemVisible",
+     "suspect": "Culprit",
+     "weight": 3,
+     "item": "Note_WithName",
+     "place": "",
+     "radius": 1.5,
+     "openable": "",
+     "alibiIndex": -1,
+     "contradiction": false,
+     "lookAt": "Note_WithName"
+    },
+    {
+     "line": "An open window and muddy prints pointing inward: someone climbed in from the garden.",
+     "condition": "ObjectOpen",
+     "suspect": "Arthur",
+     "weight": 1,
+     "item": "",
+     "place": "",
+     "radius": 1.5,
+     "openable": "Window",
+     "alibiIndex": -1,
+     "contradiction": false,
+     "lookAt": "Window"
+    },
+    {
+     "line": "Prints that come in from the garden... through a window nobody opened?",
+     "condition": "ObjectClosed",
+     "suspect": "Culprit",
+     "weight": 1,
+     "item": "",
+     "place": "",
+     "radius": 1.5,
+     "openable": "Window",
+     "alibiIndex": -1,
+     "contradiction": true,
+     "lookAt": "Footprints_Mud"
+    },
+    {
+     "line": "Arthur's scarf, beside the empty jewellery box.",
+     "condition": "ItemNear",
+     "suspect": "Arthur",
+     "weight": 2,
+     "item": "Scarf_Arthur",
+     "place": "JewelryBox_Empty",
+     "radius": 1.3,
+     "openable": "",
+     "alibiIndex": -1,
+     "contradiction": false,
+     "lookAt": "Scarf_Arthur"
+    }
+   ]
+  },
+  {
+   "level": 3,
+   "suspects": [
+    "Culprit",
+    "Secretary"
+   ],
+   "entrance": [
+    11.0,
+    1.0
+   ],
+   "alibiOptions": [
+    "I was out of the house all evening.",
+    "I was in the hallway at 20:55, then went on to the guest room.",
+    "I was in the library at 21:00."
+   ],
+   "clues": [
+    {
+     "line": "The clock stopped at nine. That is when it happened.",
+     "condition": "Always",
+     "suspect": "",
+     "weight": 0,
+     "item": "",
+     "place": "",
+     "radius": 1.5,
+     "openable": "",
+     "alibiIndex": -1,
+     "contradiction": false,
+     "lookAt": "WallClock_Stopped2100"
+    },
+    {
+     "line": "A torn contract with your signature. There is your motive.",
+     "condition": "ItemVisible",
+     "suspect": "Culprit",
+     "weight": 3,
+     "item": "Contract_Torn",
+     "place": "",
+     "radius": 1.5,
+     "openable": "",
+     "alibiIndex": -1,
+     "contradiction": false,
+     "lookAt": "Contract_Torn"
+    },
+    {
+     "line": "The secretary's key on the library desk. He was in this room.",
+     "condition": "ItemNear",
+     "suspect": "Secretary",
+     "weight": 2,
+     "item": "Key_Secretary",
+     "place": "Desk",
+     "radius": 2.0,
+     "openable": "",
+     "alibiIndex": -1,
+     "contradiction": false,
+     "lookAt": "Key_Secretary"
+    },
+    {
+     "line": "Out all evening? The guard saw you in the hallway at 20:55.",
+     "condition": "AlibiIs",
+     "suspect": "Culprit",
+     "weight": 2,
+     "item": "",
+     "place": "",
+     "radius": 1.5,
+     "openable": "",
+     "alibiIndex": 0,
+     "contradiction": true,
+     "lookAt": ""
+    },
+    {
+     "line": "Your account fits the guard's statement.",
+     "condition": "AlibiIs",
+     "suspect": "",
+     "weight": 0,
+     "item": "",
+     "place": "",
+     "radius": 1.5,
+     "openable": "",
+     "alibiIndex": 1,
+     "contradiction": false,
+     "lookAt": ""
+    },
+    {
+     "line": "In the library at nine, by your own account: the very moment the clock stopped.",
+     "condition": "AlibiIs",
+     "suspect": "Culprit",
+     "weight": 3,
+     "item": "",
+     "place": "",
+     "radius": 1.5,
+     "openable": "",
+     "alibiIndex": 2,
+     "contradiction": false,
+     "lookAt": ""
+    }
+   ]
+  },
+  {
+   "level": 4,
+   "suspects": [
+    "Culprit",
+    "Arthur",
+    "Secretary",
+    "Butler"
+   ],
+   "entrance": [
+    19.0,
+    0.375
+   ],
+   "alibiOptions": [
+    "I was in the study at 21:10.",
+    "I left the study before 21:00 and was in the living room during the theft.",
+    "I left the house at 20:50 with the secretary."
+   ],
+   "clues": [
+    {
+     "line": "The hall clock stopped at 21:10, and Arthur arrived at nine. He was in the house.",
+     "condition": "Always",
+     "suspect": "Arthur",
+     "weight": 1,
+     "item": "",
+     "place": "",
+     "radius": 1.5,
+     "openable": "",
+     "alibiIndex": -1,
+     "contradiction": false,
+     "lookAt": "GrandfatherClock_Stopped2110"
+    },
+    {
+     "line": "The secretary left at 20:50. He was long gone by then.",
+     "condition": "Always",
+     "suspect": "Secretary",
+     "weight": 0,
+     "item": "",
+     "place": "",
+     "radius": 1.5,
+     "openable": "",
+     "alibiIndex": -1,
+     "contradiction": false,
+     "lookAt": ""
+    },
+    {
+     "line": "The stolen document... with your fingerprint on it!",
+     "condition": "ItemVisible",
+     "suspect": "Culprit",
+     "weight": 3,
+     "item": "Document_Fingerprint",
+     "place": "",
+     "radius": 1.5,
+     "openable": "",
+     "alibiIndex": -1,
+     "contradiction": false,
+     "lookAt": "Document_Fingerprint"
+    },
+    {
+     "line": "Arthur's briefcase beside the desk the document was taken from.",
+     "condition": "ItemNear",
+     "suspect": "Arthur",
+     "weight": 2,
+     "item": "Briefcase_Arthur",
+     "place": "Desk",
+     "radius": 1.6,
+     "openable": "",
+     "alibiIndex": -1,
+     "contradiction": false,
+     "lookAt": "Briefcase_Arthur"
+    },
+    {
+     "line": "And the butler's scarf by the desk too? Two trails at once. Someone has been arranging this.",
+     "condition": "ItemNear",
+     "suspect": "Butler",
+     "weight": 2,
+     "item": "Scarf_Butler",
+     "place": "Desk",
+     "radius": 1.8,
+     "openable": "",
+     "alibiIndex": -1,
+     "contradiction": true,
+     "lookAt": "Scarf_Butler"
+    },
+    {
+     "line": "An open window, yet no marks of anyone climbing in.",
+     "condition": "ObjectOpen",
+     "suspect": "Culprit",
+     "weight": 1,
+     "item": "",
+     "place": "",
+     "radius": 1.5,
+     "openable": "Window",
+     "alibiIndex": -1,
+     "contradiction": true,
+     "lookAt": "Window"
+    },
+    {
+     "line": "In the study at 21:10? Then you were there when the document vanished.",
+     "condition": "AlibiIs",
+     "suspect": "Culprit",
+     "weight": 3,
+     "item": "",
+     "place": "",
+     "radius": 1.5,
+     "openable": "",
+     "alibiIndex": 0,
+     "contradiction": false,
+     "lookAt": ""
+    },
+    {
+     "line": "Your account does not clash with the times.",
+     "condition": "AlibiIs",
+     "suspect": "",
+     "weight": 0,
+     "item": "",
+     "place": "",
+     "radius": 1.5,
+     "openable": "",
+     "alibiIndex": 1,
+     "contradiction": false,
+     "lookAt": ""
+    },
+    {
+     "line": "You left with the secretary at 20:50? The guard saw him leave alone.",
+     "condition": "AlibiIs",
+     "suspect": "Culprit",
+     "weight": 2,
+     "item": "",
+     "place": "",
+     "radius": 1.5,
+     "openable": "",
+     "alibiIndex": 2,
+     "contradiction": true,
+     "lookAt": ""
+    }
+   ]
+  }
+ ],
+ "pocketWatch": {
+  "face": "Assets/Art/Sprites/UI/Timer/PocketWatch_Face.png",
+  "faceWarning": "Assets/Art/Sprites/UI/Timer/PocketWatch_Face_Warning.png",
+  "minuteHand": "Assets/Art/Sprites/UI/Timer/PocketWatch_MinuteHand.png",
+  "secondHand": "Assets/Art/Sprites/UI/Timer/PocketWatch_SecondHand.png",
+  "glow": "Assets/Art/Sprites/UI/Timer/PocketWatch_WarningGlow.png"
+ },
+ "stamps": [
+  {
+   "name": "Stamp_Suspect",
+   "sprite": "Assets/Art/Sprites/UI/Stamps/Stamp_Suspect.png"
+  },
+  {
+   "name": "Stamp_CaseClosed",
+   "sprite": "Assets/Art/Sprites/UI/Stamps/Stamp_CaseClosed.png"
+  },
+  {
+   "name": "Stamp_Exposed",
+   "sprite": "Assets/Art/Sprites/UI/Stamps/Stamp_Exposed.png"
+  }
+ ],
+ "layouts": [
+  {
+   "level": 1,
+   "scene": "Level1_TheGloveLeftBehind",
+   "title": "The Glove Left Behind",
+   "width": 12.0,
+   "height": 9.0,
+   "preparationSeconds": 300,
+   "items": [
+    {
+     "prefab": "Room_Level1_Study",
+     "x": 0,
+     "y": 0,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Wardrobe",
+     "x": 1.8125,
+     "y": 6.125,
+     "open": true,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Window",
+     "x": 9.375,
+     "y": 7.375,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Painting_Landscape",
+     "x": 5.8125,
+     "y": 7.9375,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Bookshelf",
+     "x": 3.75,
+     "y": 6.375,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Desk",
+     "x": 6.0,
+     "y": 2.75,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Chair",
+     "x": 6.0,
+     "y": 3.75,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Letter_Signed",
+     "x": 6.375,
+     "y": 3.8125,
+     "open": false,
+     "facing": [],
+     "standOffset": [
+      0,
+      -1.413
+     ]
+    },
+    {
+     "prefab": "SideTable",
+     "x": 10.3125,
+     "y": 5.25,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "OilLamp",
+     "x": 10.3125,
+     "y": 5.75,
+     "open": false,
+     "facing": [],
+     "standOffset": [
+      0,
+      -0.85
+     ]
+    },
+    {
+     "prefab": "Glove_Butler",
+     "x": 9.375,
+     "y": 2.875,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Doormat",
+     "x": 10.125,
+     "y": 0.0,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Plant",
+     "x": 0.9375,
+     "y": 0.5625,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Player",
+     "x": 7.8125,
+     "y": 0.8125,
+     "open": false,
+     "facing": [
+      0,
+      -1
+     ],
+     "standOffset": []
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "scene": "Level2_TheBreakInThatNeverHappened",
+   "title": "The Break-In That Never Happened",
+   "width": 12.0,
+   "height": 9.0,
+   "preparationSeconds": 240,
+   "items": [
+    {
+     "prefab": "Room_Level2_LivingRoom",
+     "x": 0,
+     "y": 0,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Window",
+     "x": 2.25,
+     "y": 7.375,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Footprints_Mud",
+     "x": 3.625,
+     "y": 6.125,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Fireplace",
+     "x": 7.8125,
+     "y": 6.5,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Painting_StillLife",
+     "x": 5.25,
+     "y": 8.0,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Chair",
+     "x": 1.875,
+     "y": 3.4375,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Scarf_Arthur",
+     "x": 1.875,
+     "y": 4.0625,
+     "open": false,
+     "facing": [],
+     "standOffset": [
+      0,
+      -0.975
+     ]
+    },
+    {
+     "prefab": "RoundTable",
+     "x": 9.375,
+     "y": 2.875,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "JewelryBox_Empty",
+     "x": 9.375,
+     "y": 3.625,
+     "open": false,
+     "facing": [],
+     "standOffset": [
+      0,
+      -1.1
+     ]
+    },
+    {
+     "prefab": "Sofa",
+     "x": 6.0,
+     "y": 4.0,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "DrawerChest",
+     "x": 2.1875,
+     "y": 0.8125,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Note_WithName",
+     "x": 5.0,
+     "y": 1.625,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Armchair",
+     "x": 10.3125,
+     "y": 0.8125,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Player",
+     "x": 4.0625,
+     "y": 0.3125,
+     "open": false,
+     "facing": [
+      1,
+      0
+     ],
+     "standOffset": []
+    }
+   ]
+  },
+  {
+   "level": 3,
+   "scene": "Level3_TheNineOclockAlibi",
+   "title": "The Nine O'Clock Alibi",
+   "width": 12.0,
+   "height": 11.0,
+   "preparationSeconds": 240,
+   "items": [
+    {
+     "prefab": "Room_Level3_LibraryHallway",
+     "x": 0,
+     "y": 0,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "LockedCabinet",
+     "x": 1.625,
+     "y": 8.0,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Contract_Torn",
+     "x": 1.8125,
+     "y": 7.0,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "WallClock_Stopped2100",
+     "x": 9.375,
+     "y": 9.4375,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Bookshelf",
+     "x": 4.6875,
+     "y": 8.375,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Bookshelf",
+     "x": 6.6875,
+     "y": 8.375,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Desk",
+     "x": 9.25,
+     "y": 5.625,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Glass_Broken",
+     "x": 7.8125,
+     "y": 5.3125,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Door",
+     "x": 6.0,
+     "y": 2.5,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "ConsoleTable",
+     "x": 2.25,
+     "y": 1.75,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Key_Secretary",
+     "x": 2.25,
+     "y": 2.125,
+     "open": false,
+     "facing": [],
+     "standOffset": [
+      0,
+      -0.725
+     ]
+    },
+    {
+     "prefab": "CoatRack",
+     "x": 10.3125,
+     "y": 1.875,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Plant",
+     "x": 8.4375,
+     "y": 1.9375,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Player",
+     "x": 4.6875,
+     "y": 0.6875,
+     "open": false,
+     "facing": [
+      -1,
+      0
+     ],
+     "standOffset": []
+    }
+   ]
+  },
+  {
+   "level": 4,
+   "scene": "Level4_ThePictureThatIsTooPerfect",
+   "title": "The Picture That Is Too Perfect",
+   "width": 20.0,
+   "height": 11.0,
+   "preparationSeconds": 180,
+   "items": [
+    {
+     "prefab": "Room_Level4_StudyLivingHallway",
+     "x": 0,
+     "y": 0,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "SideTable",
+     "x": 1.75,
+     "y": 7.5,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Document_Fingerprint",
+     "x": 1.75,
+     "y": 8.0,
+     "open": false,
+     "facing": [],
+     "standOffset": [
+      0,
+      -0.85
+     ]
+    },
+    {
+     "prefab": "DrawerChest",
+     "x": 1.875,
+     "y": 5.1875,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Desk",
+     "x": 6.25,
+     "y": 5.4375,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Briefcase_Arthur",
+     "x": 3.75,
+     "y": 5.1875,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Bookshelf",
+     "x": 7.9375,
+     "y": 8.375,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Painting_Landscape",
+     "x": 4.6875,
+     "y": 9.9375,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Armchair",
+     "x": 12.8125,
+     "y": 6.3125,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Scarf_Butler",
+     "x": 12.8125,
+     "y": 6.875,
+     "open": false,
+     "facing": [],
+     "standOffset": [
+      0,
+      -0.912
+     ]
+    },
+    {
+     "prefab": "Window",
+     "x": 17.5,
+     "y": 9.375,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Fireplace",
+     "x": 14.6875,
+     "y": 8.5,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "RoundTable",
+     "x": 17.5,
+     "y": 5.5,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Door",
+     "x": 6.25,
+     "y": 2.5,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Door",
+     "x": 14.6875,
+     "y": 2.5,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "GrandfatherClock_Stopped2110",
+     "x": 10.3125,
+     "y": 2.0625,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "CoatRack",
+     "x": 18.75,
+     "y": 1.875,
+     "open": false,
+     "facing": [],
+     "standOffset": []
+    },
+    {
+     "prefab": "Player",
+     "x": 8.125,
+     "y": 0.5625,
+     "open": false,
+     "facing": [
+      0,
+      1
+     ],
+     "standOffset": []
+    }
+   ]
+  }
+ ]
+}
